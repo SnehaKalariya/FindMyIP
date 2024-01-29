@@ -13,7 +13,7 @@ public struct FindMyIPView: View {
         
     }
     public var body: some View {
-        NavigationStack{
+        NavigationStack {
             VStack {
                 if viewModel.responseData == nil && viewModel.errorMsg == ""{
                     ProgressView()
